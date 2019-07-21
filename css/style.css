@@ -137,6 +137,19 @@ body
 .learning-card
 {
   padding: 1rem;
+  max-height: 300px;
+  min-height: 300px;
+}
+.learning-card a
+{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #111 !important;
+  text-transform: capitalize;
+}
+.learning-card a:hover
+{
+  color: #b1040e !important;
 }
 .footer-section
 {
@@ -250,7 +263,7 @@ body
 }
 @media(max-width: 800px)
 {
-  .person-card .card-body
+  .person-card .card-body,.learning-card .card-body
   {
     display: none;
   }
@@ -270,12 +283,9 @@ body
     font-size: 1rem;
     font-weight: 300;
   }
-  .person-card .card-title
+  .learning-card
   {
-    font-size: 0.8rem;
-  }
-  .person-card .card-text
-  {
-    font-size: 0.7rem;
+    max-height: 150px;
+    min-height: 150px;
   }
 }
