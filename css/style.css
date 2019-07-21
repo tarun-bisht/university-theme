@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans&display=swap');
+a
+{
+  text-decoration: none;
+}
+a:hover
+{
+  text-decoration: none;
+}
+body
+{
+  overflow-x: hidden;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+#small-nav
+{
+  display: none;
+}
+#big-nav
+{
+  display: block;
+}
+.menu-overlay
+{
+  display: none;
+}
+.link-btn
+{
+  color: #fff;
+}
+.link-btn:hover
+{
+  color: #fff;
+  border-bottom: 3px solid #fff;
+}
+.navbar
+{
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.navbar-brand
+{
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+.navbar-brand:hover
+{
+  color: #fff;
+}
+.nav-1,.nav-2
+{
+  width: 100%;
+  display: flex;
+}
+.nav-1
+{
+  background-color: #b1040e;
+}
+.nav-1 .nav-link
+{
+  font-size: 1rem;
+  color: #fff !important;
+  margin-right: 1.2rem;
+  text-transform: capitalize;
+}
+.nav-1 .nav-link:hover
+{
+  border-top: 3px solid #fff;
+}
+.nav-2
+{
+  background-color: #fff;
+}
+.nav-2 .nav-link
+{
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #111 !important;
+  margin-right: 1.5rem;
+  text-transform: capitalize;
+}
+.nav-2 .nav-link:hover
+{
+  border-bottom: 2px solid #111;
+}
+.image-overlay
+{
+  margin: 105px 0px 10px 0px;
+}
+.gap
+{
+  padding: 1rem;
+  margin-top:1rem;
+}
+.more-btn
+{
+  margin-top: 1.5rem;
+  color:#fff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  min-width: 200px;
+  background-color: #b1040e;
+}
+.more-btn:hover
+{
+  color:#fff;
+}
+.section-head
+{
+  text-align: center;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 800;
+}
+.section-sub-head
+{
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.key-person-section,.online-learning-section
+{
+  background-color: #2f2424;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.events-section,.news-section
+{
+  background-color: #481D24;
+  margin-top: 2rem;
+  padding: 3rem;
+}
+.learning-card
+{
+  padding: 1rem;
+}
+.footer-section
+{
+  background-color: #fff;
+}
+.footer-links
+{
+  list-style: none;
+}
+.footer-links li a
+{
+  color: #b1040e;
+}
+.footer-links li a:hover
+{
+  color: #b1040e;
+  border-bottom: 2px solid #b1040e;
+}
+.footer-panel
+{
+  background-color:#b1040e;
+  color: #fff;
+}
+@media(max-width: 987px)
+{
+  /* Navigation Menu */
+  #big-nav
+  {
+    display: none;
+  }
+  #small-nav
+  {
+    display: block;
+  }
+  #menu-btn
+  {
+    color: #fff;
+    font-size: 1.5rem;
+    background: Transparent;
+    outline-style: none;
+    border: none;
+    margin-right: 1rem;
+  }
+  .nav-1
+  {
+    padding: 0.5rem;
+  }
+  .banner-overlay
+  {
+    margin: 70px 0px 10px 0px;
+  }
+  .menu-overlay
+  {
+    display: block;
+    background-color:#b1040e;
+    height: 100%;
+    width:0;
+    position: fixed;
+    z-index: 10000;
+    left: 0;
+    top: 62px;
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .menu-overlay .sidebar
+  {
+    list-style: none;
+    padding: 1rem;
+  }
+  .menu-overlay .sidebar li
+  {
+    padding: 0.5rem;
+  }
+  .menu-overlay .sidebar li a
+  {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    margin-left: 5rem;
+  }
+  .menu-overlay hr
+  {
+    background-color: #fff;
+  }
+  .nav-link
+  {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #fff !important;
+    margin-right: 1.5rem;
+    text-transform: capitalize;
+  }
+  .key-person-section,.online-learning-section
+  {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .person-card .card-body
+  {
+    padding: 0.2rem !important;
+  }
+  .person-card .card-title
+  {
+    font-size: 0.8rem;
+  }
+  .person-card .card-text
+  {
+    font-size: 0.7rem;
+  }
+}
+@media(max-width: 800px)
+{
+  .person-card .card-body
+  {
+    display: none;
+  }
+  .more-btn
+  {
+    font-size: 1rem;
+    font-weight: 500;
+    min-width: 100px;
+  }
+  .section-head
+  {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+  .section-sub-head
+  {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .person-card .card-title
+  {
+    font-size: 0.8rem;
+  }
+  .person-card .card-text
+  {
+    font-size: 0.7rem;
+  }
+}
