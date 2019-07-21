@@ -5,4 +5,4 @@
   <li>CSS</li>
   <li>JS</li>
 </ul>
-<a href="https://tarun-bisht.github.io/Fictional-University/"><h5>Live Demo</h5></a>
+<h5><a href="https://tarun-bisht.github.io/Fictional-University/">Live Demo</a></h5>
