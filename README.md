@@ -6,4 +6,4 @@
   <li>JS</li>
   <li>Bootstrap Framework</li>
 </ul>
-<h5><a href="https://tarun-bisht.github.io/Fictional-University/">Live Demo</a></h5>
+<h5><a href="https://tarun-bisht.github.io/Fictional-University-Theme/">Live Demo</a></h5>
