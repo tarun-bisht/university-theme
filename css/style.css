@@ -68,7 +68,7 @@ body
 }
 .nav-1 .nav-link:hover
 {
-  border-top: 3px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 .nav-2
 {
